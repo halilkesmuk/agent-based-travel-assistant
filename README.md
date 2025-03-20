@@ -1,8 +1,8 @@
-✈️ Agent-based Uçak Bileti Asistanı
+# ✈️ Agent-based Uçak Bileti Asistanı
 
 Bu proje, hazır agent sistemleri (örneğin LangChain, AutoGPT gibi) kullanmadan sıfırdan geliştirilmiş, Large Language Model (LLM) tabanlı uçak bileti bulma asistanıdır. Kullanıcıya en uygun uçuşları bulup önerme işlemini otomatik olarak gerçekleştirir.
 
-🚀 Özellikler
+# 🚀 Özellikler
 
 Tamamen özgün agent mimarisi ile geliştirilmiştir.
 
@@ -12,7 +12,7 @@ Skyscanner API aracılığıyla (RapidAPI üzerinden) gerçek zamanlı uçuş bi
 
 Kullanıcı taleplerine göre en uygun uçuş seçeneklerini analiz eder ve önerir.
 
-⚙️ Teknolojiler
+# ⚙️ Teknolojiler
 
 Python
 
@@ -20,18 +20,17 @@ OpenRouter API (LLM servis sağlayıcısı)
 
 RapidAPI Skyscanner Uçuş Arama API
 
-📥 Kurulum
+# 📥 Kurulum
 
 Projeyi klonlayın:
 
 Gerekli bağımlılıkları yükleyin:
 
-🚦 Kullanım
+# 🚦 Kullanım
 
 Terminalde aşağıdaki komutu çalıştırarak projeyi başlatın:
+python orchestrator.py
 
-🎬 Demo Videosu
-
-Projenin detaylı anlatımı ve kullanım demosu için aşağıdaki videoyu izleyebilirsiniz:
+# 🎬 Demo Videosu
 
 [📺 Proje Demo Videosu](Youtube video linkinizi buraya ekleyin)
