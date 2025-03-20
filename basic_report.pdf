@@ -1,0 +1,16 @@
+Bu proje, uçak bileti bulma sürecini kullanıcılar için oldukça kolaylaştıran, tamamen özgün ve sıfırdan tasarlanmış bir agent sistemidir. Günümüzde kullanıcıların uçuş ararken yaşadığı karmaşık süreçleri basitleştirmek ve onlara en uygun uçuş alternatiflerini otomatik olarak önermek amacıyla geliştirilmiştir.
+
+Projenin merkezinde özgün olarak tasarlanmış bir agent mimarisi bulunmakta. Bu mimari, hazır sistemlere (örneğin LangChain ya da AutoGPT gibi framework'lere) bağlı kalmadan, kullanıcıların taleplerini anlamaya, analiz etmeye ve en doğru sonuçları sunmaya odaklanıyor.
+
+Bu agent sisteminin kalbinde Large Language Models (LLM) yer alıyor. LLM'lerin sağladığı güçlü doğal dil işleme yeteneği sayesinde, kullanıcılarla insansı bir etkileşim gerçekleştiriliyor. OpenRouter platformunun tercih edilmesindeki temel sebep ise, birçok farklı Large Language Model seçeneğini tek noktadan erişilebilir hale getirmesi ve farklı bütçelere uygun çözümler sunmasıdır. Böylece projenin ölçeklenebilirliği ve sürdürülebilirliği artırılırken, maliyet etkin bir çözüm sağlanmış oluyor.
+
+Gerçek zamanlı ve güvenilir uçuş bilgilerini çekmek için Skyscanner'ın sunduğu API, RapidAPI üzerinden entegre edilmiştir. RapidAPI'nin tercih edilmesindeki temel sebep ise, hızlı entegrasyon imkânı sunmasının yanı sıra ücretsiz bir başlangıç seçeneğiyle proje geliştirme sürecini kolaylaştırmasıdır. Bu sayede, gerçek zamanlı uçuş verilerine erişim, hem geliştirme aşamasında hem de nihai kullanıcı deneyiminde büyük avantaj sağlamaktadır.
+
+Proje, Python dilinde geliştirilmiş olup, özellikle OpenRouter ve RapidAPI entegrasyonları sayesinde kullanıcı dostu ve esnek bir yapıya sahiptir. Kullanıcıların basit ya da karmaşık uçuş talepleri hızlıca analiz edilir, gerçek zamanlı veriler üzerinden uygun fiyatlı ve konforlu uçuşlar otomatik olarak bulunur ve kullanıcılara önerilir.
+
+Sonuç olarak, bu proje, uçak bileti bulma sürecini akıllı, hızlı ve insansı bir deneyime dönüştürmeyi hedeflerken, kullanıcı memnuniyetini ve kullanım kolaylığını ön plana çıkarmaktadır.
+
+
+
+
+
