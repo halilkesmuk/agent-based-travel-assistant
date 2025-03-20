@@ -5,7 +5,14 @@ Projenin merkezinde özgün olarak tasarlanmış bir agent mimarisi bulunmakta. 
 kullanıcıların taleplerini anlamaya, analiz etmeye ve en doğru sonuçları sunmaya odaklanıyor.
 
 Bu agent sisteminin kalbinde Large Language Models (LLM) yer alıyor. LLM'lerin sağladığı güçlü doğal dil işleme yeteneği sayesinde, kullanıcılarla insansı bir etkileşim gerçekleştiriliyor. 
-OpenRouter platformunun tercih edilmesindeki temel sebep ise, birçok farklı Large Language Model seçeneğini tek noktadan erişilebilir hale getirmesi ve farklı bütçelere uygun çözümler sunmasıdır. Böylece projenin ölçeklenebilirliği ve sürdürülebilirliği artırılırken, maliyet etkin bir çözüm sağlanmış oluyor.
+OpenRouter platformunun tercih edilmesindeki temel sebep ise, birçok farklı Large Language Model seçeneğini tek noktadan erişilebilir hale getirmesi ve farklı bütçelere uygun çözümler sunmasıdır. 
+Böylece projenin ölçeklenebilirliği ve sürdürülebilirliği artırılırken, maliyet etkin bir çözüm sağlanmış oluyor.
+
+LLM olarak demo videosunda ve proje geliştirme aşamalarında deepseek/deepseek-r1-distill-qwen-32b:free modeli kullanıldı. Bu model hem hızlı hem de güvenilir yanıtlar verdiğinden tercih edilmiştir. 
+- Bu modelin Openrouter'da temel bilgileri : Latency = 4,41s, Throughput = 204,0t/s olarak belirtilmiştir.
+Geliştirme aşamasında denenen diğer modeller :
+- google/gemini-2.0-flash-exp:free - Latency = 0,81s, Throughput = 142,0t/s. Bu model oldukça hızlı olsa da sık sık API kopma hataları nedeniyle tercih edilmemiştir.
+- rekaai/reka-flash-3:free - Latency = 2,28s, Throughput = 66,89t/s. Bu model de hızlı bir seçenek olsa da cevapları ve anlama kabiliyeti yetersizlikleri nedeniyle bu projeye uygun görülmemiştir
 
 Gerçek zamanlı ve güvenilir uçuş bilgilerini çekmek için Skyscanner'ın sunduğu API, RapidAPI üzerinden entegre edilmiştir. 
 RapidAPI'nin tercih edilmesindeki temel sebep ise, hızlı entegrasyon imkânı sunmasının yanı sıra ücretsiz bir başlangıç seçeneğiyle proje 
