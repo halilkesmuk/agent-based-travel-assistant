@@ -34,3 +34,7 @@ python orchestrator.py
 # 🎬 Demo Videosu
 
 [📺 Proje Demo Videosu](Youtube video linkinizi buraya ekleyin)
+
+# Flowchart 
+
+![flowchart](https://github.com/user-attachments/assets/120449c2-7364-4ce4-a661-936bc23b3858)
