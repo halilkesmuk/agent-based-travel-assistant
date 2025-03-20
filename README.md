@@ -33,7 +33,7 @@ python orchestrator.py
 
 # 🎬 Demo Videosu
 
-[📺 Proje Demo Videosu](Youtube video linkinizi buraya ekleyin)
+[📺 Proje Demo Videosu]([Youtube video linkinizi buraya ekleyin](https://youtu.be/EfIe4-iiz0U))
 
 # Flowchart 
 
