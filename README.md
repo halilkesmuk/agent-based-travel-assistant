@@ -32,8 +32,7 @@ Terminalde aşağıdaki komutu çalıştırarak projeyi başlatın:
 python orchestrator.py
 
 # 🎬 Demo Videosu
-
-[📺 Proje Demo Videosu]([https://youtu.be/EfIe4-iiz0U])
+[📺 Proje Demo Videosu](https://youtu.be/EfIe4-iiz0U)
 
 # Flowchart 
 
