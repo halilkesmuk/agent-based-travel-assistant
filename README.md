@@ -1,4 +1,4 @@
-# ✈️ Agent-based Uçak Bileti Asistanı
+# ✈️ AI Agent-based Travel Assistant
 
 Bu proje, hazır agent sistemleri (örneğin LangChain, AutoGPT gibi) kullanmadan sıfırdan geliştirilmiş, Large Language Model (LLM) tabanlı uçak bileti bulma asistanıdır. Kullanıcıya en uygun uçuşları bulup önerme işlemini otomatik olarak gerçekleştirir.
 
